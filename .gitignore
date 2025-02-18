@@ -1,0 +1,28 @@
+#Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+app/build/
+/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea/
+Thumbs.db
+
+#Tests no utilizados:
+app/src/androidTest/
+app/src/test/
+
+
+# Firebase
+/google-services.json
+app/google-services.json

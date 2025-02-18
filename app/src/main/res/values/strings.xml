@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">DoggyLovers</string>
+    <string name="tituloInicioSesion">Iniciar Sesión</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="txtOlvidasteContrasena">¿Olvidaste tu contraseña?</string>
+    <string name="txtEntrar">Entrar</string>
+    <string name="txtEntrarGoogle">Entrar con google:</string>
+    <string name="content_description_logo_google">Logo de google</string>
+    <string name="txt_no_tienes_cuenta">¿Aún no tienes cuenta?</string>
+    <string name="txt_registrarse">Regístrate</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintFechaNacimiento">Fecha de nacimiento</string>
+    <string name="txtRegistrarseConGoogle">Si lo prefieres, puedes registrarte con google:</string>
+    <string name="tituloRegistroMascota">Cuéntanos sobre tu mascota</string>
+    <string name="txtOmitir">Omitir por ahora</string>
+    <string name="txtEnviarDatos">Enviar los datos</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tituloHome">Home</string>
+    <string name="tituloCalendario">Calendario</string>
+    <string name="tituloTareas">Tareas</string>
+    <string name="tituloMarketplace">MarketPlace</string>
+    <string name="tituloOtros">Otros</string>
+    <string name="txtVwNaciEl">Nací el:</string>
+    <string name="contentDescriptionPanelMascotas">Panel con mascotas</string>
+    <string name="txtAnadirMascota">Registrar más mascotas</string>
+    <string name="txtSabiasQue">¿Sabías que...?</string>
+    <string name="contentDescriptionAnadirTarea">Añadir tarea</string>
+    <string name="contentDescriptionEditarTarea">Editar tarea</string>
+    <string name="tituloTareasPendientes">Todavía tienes las siguientes tareas:</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="explicacionMarketplace1">Aquí encontrarás productos que quizá te interesen sobre el cuidado de tu mascota.</string>
+    <string name="explicacionMarketplace2">Si te interesa alguno, puedes acceder directamente haciendo clic.</string>
+    <string name="optionEditarPerfil">Editar perfil/cuenta</string>
+    <string name="optionCerrarSession">Cerrar sesión</string>
+    <string name="optionTutorials">Tutoriales/ayuda</string>
+    <string name="optionsBorrarCuenta">Borrar cuenta</string>
+    <string name="tituloEditarCuenta">Edita tu cuenta</string>
+    <string name="tituloNombre">Nombre:</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="tituloEmail">Email:</string>
+    <string name="tituloMetodoAcceso">Método de acceso:</string>
+    <string name="cambiarEmailMetodo">Cambiar email/método de acceso</string>
+    <string name="cambiarContra">Cambiar contraseña</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="contentDescriptionImagenPerroGato">imagen de fondo de perro y gato</string>
+    <!-- fichero get Shared Preference -->
+    <string name="prefs_file">com.proyecto.appmascotasinicial.PREFERENCE_FILE_KEY</string>
+    <string name="default_web_client_id">968602953446-rf2liq43if15a7e4obt0c32dgh026svu.apps.googleusercontent.com</string>
+    <string name="guardar_observaciones">guardar observaciones</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="volver">Volver</string>
+    <string name="tituloSugerencias">Envíanos tus sugerencias, comentarios o los problemas que puedas tener rellenando el siguiente formulario. Intentaremos responder en el menor tiempo posible.</string>
+    <string name="titulo_mensaje">Mensaje:</string>
+    <string name="enviar">Enviar</string>
+    <string name="pregunta_nombre_mascota">¿Cómo se llama tu mascota?</string>
+    <string name="pregunta_mascota_nacimiento">¿Cuándo nació?</string>
+    <string name="pregunta_especie_mascota">¿Se trata de un perrito o de un gatito?</string>
+    <string name="perro">Perro</string>
+    <string name="gato">Gato</string>
+    <string name="pregunta_mascota_medicacion">¿Toma algún tipo de medicación?</string>
+    <string name="si">Sí</string>
+    <string name="pregunta_mascotas_comidas">¿Cuántas veces come al día?</string>
+    <string name="pregunta_mascota_gramos_comida">¿Cuántos gramos de comida diaria?</string>
+    <string name="pregunta_mascota_paseos">¿Cuántas veces paseas a tu perro?</string>
+    <string name="pregunta_mascota_limpieza_arena">¿Cuántas veces al día le limpiáis la caja de arena?</string>
+    <string name="guardar_datos">Guardar datos</string>
+    <string name="tareas_completadas">Tareas completadas:</string>
+    <string name="solo_para_hoy">Sólo para hoy</string>
+    <string name="regular">Regular</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="dia_y_hora_de_la_cita">Día y hora de la cita:</string>
+    <string name="hint_fecha_hora">Fecha y hora</string>
+    <string name="descripcion_cita">Descripción de la cita:</string>
+    <string name="descripcion">Descripción</string>
+    <string name="pregunta_recordatorio">¿Quieres establecer algún recordatorio?</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="borrar_observaciones">borrar observaciones</string>
+    <string name="agregar_cita">agregar cita</string>
+    <string name="borrar_cita">borrar cita</string>
+    <string name="editar_mascota">Editar Mascota</string>
+    <string name="content_description_borrar_mascota">botón borrar mascota</string>
+    <string name="editar_a">Editar a:</string>
+    <string name="omitir">Omitir</string>
+    <string name="nombre">Nombre</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="especie">Especie</string>
+    <string name="veces_que_come_al_d_a">Veces que come al día</string>
+    <string name="dosis_en_gramos_de_comida_diaria">Dosis en gramos de comida diaria</string>
+    <string name="dosis">Dosis</string>
+    <string name="n_mero_de_paseos_diarios">Número de paseos diarios</string>
+    <string name="veces_diarias_que_limpi_is_la_caja_de_arena">Veces diarias que limpiáis la caja de arena</string>
+    <string name="editar_tarea">Editar tarea</string>
+    <string name="borrar_tarea">Borrar tarea</string>
+    <string name="descripci_n_de_la_tarea">Descripción de la tarea:</string>
+    <string name="actualizar_nuevos_datos">Actualizar nuevos datos</string>
+    <string name="imagen_especie_de_la_mascota">Imagen especie de la mascota</string>
+    <string name="imagen_de_producto">imagen de producto</string>
+    <string name="a_ade_una_tarea">Añade una tarea:</string>
+    <string name="pregunta_cual_mascota">¿Para cuál de tus mascotas es esta tarea?</string>
+    <string name="escribe_su_nombre_correctamente">escribe su nombre correctamente</string>
+    <string name="pregunta_periodicidad_tarea">¿Quieres añadirla para el día de hoy, o de forma regular?</string>
+    <string name="edita_la_tarea">Edita la tarea:</string>
+    <string name="mascota_asociada">Mascota asociada:</string>
+    <string name="periodicidad_de_la_tarea">Periodicidad de la tarea</string>
+    <string name="observaciones_del_d_a">Observaciones del día</string>
+    <string name="d_as_con_citas">Días con citas</string>
+    <string-array name="emdSpinnerEspecie">
+        <item>Perro</item>
+        <item>Gato</item>
+    </string-array>
+    <string-array name="rmfSpinnerOptions">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

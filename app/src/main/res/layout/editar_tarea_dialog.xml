@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/txtTituloDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edita_la_tarea"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripci_n_de_la_tarea"
+        android:layout_margin="10dp"
+        style="@style/txtViewMediano"/>
+
+    <EditText
+        android:id="@+id/etdEtDescripcionTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripci_n_de_la_tarea"
+        style="@style/editTxt"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mascota_asociada"
+        android:layout_margin="10dp"
+        style="@style/txtViewMediano"/>
+
+    <Spinner
+        android:id="@+id/etdSpinnerMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/periodicidad_de_la_tarea"
+        style="@style/txtViewMediano"
+        android:layout_margin="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/etdRbGroupPeriodicidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/etdRdBtnRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regular"
+            />
+
+        <RadioButton
+            android:id="@+id/etdRdBtnHoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solo_para_hoy" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp">
+
+        <Button
+            android:id="@+id/etdBtnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            style="@style/btnSecondary"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/etdBtnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

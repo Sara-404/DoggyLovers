@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/itemTareaCheckBox"
+            style="@style/txtViewMediano"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            tools:text="Este es un texto largo para ver cómo funciona esto" />
+
+        <ImageButton
+            android:id="@+id/itemTareaBtnEditar"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="@string/editar_tarea"
+            android:src="@drawable/baseline_edit_24" />
+
+        <ImageButton
+            android:id="@+id/itemTareaBtnBorrar"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorSurface"
+            android:contentDescription="@string/borrar_tarea"
+            android:src="@drawable/baseline_delete_24" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/itemTareaDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/listDivider" />
+
+
+</LinearLayout>

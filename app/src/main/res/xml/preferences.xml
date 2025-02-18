@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="account"
+        app:title="Cuenta">
+
+        <Preference
+            app:key="nameChange"
+            app:title="Cambiar nombre" />
+
+        <Preference
+            app:key="passwordChange"
+            app:title="Modificar contraseña" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="help"
+        app:title="Ayuda">
+        <Preference
+            app:key="feedback"
+            app:summary="Informar sobre problemas técnicos o sugerencias"
+            app:title="Enviar comentarios" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="salir"
+        app:title="Salir">
+
+        <Preference
+            app:key="logOut"
+            app:title="Cerrar sesión" />
+
+        <Preference
+            app:key="borrarCuenta"
+            app:summary="Borrar cuenta y los datos asociados a ella"
+            app:title="Borrar cuenta" />
+    </PreferenceCategory>
+    <Preference
+        app:key="volver"
+        app:title="Volver" />
+
+</PreferenceScreen>

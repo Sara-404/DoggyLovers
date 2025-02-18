@@ -1,0 +1,96 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppMascotasInicial" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryLight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="background">@color/colorBackground</item>
+        <item name="colorError">@color/colorError</item>
+
+        <item name="colorOnPrimary">@color/colorTextOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorTextOnSecondary</item>
+        <item name="colorOnSurface">@color/colorTextOnSurface</item>
+        <item name="colorOnBackground">@color/colorTextOnBackground</item>
+        <item name="colorOnError">@color/colorTextOnError</item>
+
+    </style>
+    <style name="Theme.AppMascotasInicial" parent="Base.Theme.AppMascotasInicial" />
+
+    <!-- Estilos -->
+    <!-- Títulos -->
+    <style name="textViewTitulo" parent ="Base.Theme.AppMascotasInicial">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- EditText (para que no den error de touch target too small -->
+    <style name="editTxt" parent="Base.Theme.AppMascotasInicial">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--Otro estilo de botón para diferenciarlo -->
+    <style name="btnSecondary">
+        <item name="android:backgroundTint">?attr/colorSecondary</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <!--TextView medianos (preguntas del registro de mascotas,...) -->
+    <style name="txtViewMediano" parent ="Base.Theme.AppMascotasInicial">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--Bottom navigation bar  -->
+    <style name="menuBottomBarStyle">
+        <item name="itemIconTint">?attr/colorAccent</item>
+        <item name="itemTextColor">?attr/colorAccent</item>
+        <item name="android:background">?attr/colorSecondary</item>
+        <item name="itemActiveIndicatorStyle">@style/Base.Theme.AppMascotasInicial</item>
+    </style>
+
+    <!--Título pequeño -->
+    <style name="txtViewTituloSmall" parent="Base.Theme.AppMascotasInicial">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--Botón pequeño -->
+    <style name="btnSmall" parent="Base.Theme.AppMascotasInicial">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:backgroundTint">?attr/colorSurface</item>
+    </style>
+
+    <style name="sabiasQueStyle" parent="Base.Theme.AppMascotasInicial">
+        <item name="android:backgroundTint">?attr/colorSurface</item>
+    </style>
+
+    <style name="spinner" parent="Base.Theme.AppMascotasInicial">
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <!--Dialog de fecha  -->
+    <style name="dialogFecha" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Para los botones-->
+        <item name="colorButtonNormal">@color/colorTextOnSurface</item>
+        <!-- titulo y texto -->
+        <item name="android:textColorPrimary">@color/colorTextOnSurface</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Titulo de dialog personalizado -->
+    <style name="txtTituloDialog" parent="Base.Theme.AppMascotasInicial">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

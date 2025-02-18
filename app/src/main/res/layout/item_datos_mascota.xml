@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/rvhImgVwEspecie"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/imagen_especie_de_la_mascota"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/rvhTxtViewNombreMascota"
+        style="@style/txtViewTituloSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toEndOf="@+id/rvhImgVwEspecie"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Golfito" />
+
+    <TextView
+        android:id="@+id/rvhTxtVwNaciEl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/txtVwNaciEl"
+        app:layout_constraintStart_toEndOf="@+id/rvhImgVwEspecie"
+        app:layout_constraintTop_toBottomOf="@+id/rvhTxtViewNombreMascota" />
+
+    <TextView
+        android:id="@+id/rvhTxtVwFechaNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/rvhTxtVwNaciEl"
+        app:layout_constraintTop_toBottomOf="@+id/rvhTxtViewNombreMascota"
+        tools:text="20/11/2012" />
+
+    <ImageButton
+        android:id="@+id/rvhBtnBorrarMascota"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/content_description_borrar_mascota"
+        android:src="@drawable/baseline_delete_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/rvhDividerBottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
