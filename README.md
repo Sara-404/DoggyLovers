@@ -19,11 +19,11 @@ comida, medicación, o los paseos diarios).
 
 ## DoggyLovers en funcionamiento:
 
-<a href="DoggyLovers_preview.mp4">
+<a href="https://youtube.com/shorts/iGbsuzOtbVA?feature=share">
   <img src="app\src\main\res\drawable\doggylovers_logo_grande.png" style="max-width: 100%; width: 400px;" >
 </a>
 
-*Haz clic en la imagen para ver un vídeo de la app en funcionamiento.*
+*Haz clic en la imagen para ver un vídeo de la app en funcionamiento, o [descarga el vídeo si lo prefieres](DoggyLovers_preview.mp4)*
 
 <!--
 ## Instalación
