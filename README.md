@@ -19,7 +19,7 @@ comida, medicación, o los paseos diarios).
 
 ## DoggyLovers en funcionamiento:
 
-<a href="https://youtube.com/shorts/iGbsuzOtbVA?feature=share">
+<a href="DoggyLovers_preview.mp4">
   <img src="app\src\main\res\drawable\doggylovers_logo_grande.png" style="max-width: 100%; width: 400px;" >
 </a>
 
